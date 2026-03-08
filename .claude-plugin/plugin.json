@@ -1,12 +1,12 @@
 {
-  "name": "iorlas-idea",
-  "description": "Fast idea capture for personal knowledge management. Dump thoughts, links, voice transcripts — they become structured, trackable idea files.",
-  "version": "1.0.0",
+  "name": "iorlas-inbox",
+  "description": "Universal capture for personal knowledge OS. Dump thoughts, tasks, links, voice transcripts — they become structured, trackable inbox files with auto-detected types and project context.",
+  "version": "2.0.0",
   "author": {
     "name": "iorlas"
   },
-  "homepage": "https://github.com/iorlas/iorlas-idea",
-  "repository": "https://github.com/iorlas/iorlas-idea",
+  "homepage": "https://github.com/iorlas/iorlas-inbox",
+  "repository": "https://github.com/iorlas/iorlas-inbox",
   "license": "MIT",
-  "keywords": ["ideas", "inbox", "knowledge-management", "capture", "brainstorming"]
+  "keywords": ["inbox", "knowledge-management", "capture", "knowledge-os", "pkm"]
 }
