@@ -52,20 +52,6 @@ Run: `basename "$(git rev-parse --show-toplevel 2>/dev/null || pwd)"`
 
 If `~/Documents/Knowledge/Projects/{result}.md` exists and a Projects/ file has a matching `git:` remote URL in frontmatter, use that file's name (without .md) as the link target instead.
 
-## INDEX.md
-
-After creating all files, regenerate `~/Documents/Knowledge/Inbox/INDEX.md` by scanning ALL `I????-*.md` files:
-
-```markdown
-# Inbox
-
-| ID | Title | Type | Status | Created | Project | Mentions |
-|----|-------|------|--------|---------|---------|----------|
-| I0001 | {title} | {type} | {status} | {created date} | {project} | {mentions joined} |
-```
-
-Sort by ID ascending.
-
 ## Constraints
 
 - **No dedup at capture.** Never skip because "a similar item exists." Dedup is triage, not capture.
@@ -106,4 +92,4 @@ Source: David Gaut YouTube video about AI making you limitless
 `I0005-mcp-security-policy.md` — type: Task, mentions: ["Sergei"]
 `I0006-research-factory-sandbox.md` — type: Idea
 
-INDEX.md regenerated. Summary shown to user.
+Summary shown to user.
